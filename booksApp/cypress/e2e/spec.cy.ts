@@ -1,7 +1,5 @@
 describe('Start App', () => {
-  before(() => {
-   
-  })
+  
 });
 
 it('Wait for loading page', ()=>{
@@ -37,5 +35,4 @@ it('Logging in', ()=>{
 
 it('Add a book', ()=>{
   cy.contains('Add new').should('be.visible');
-  
 });
